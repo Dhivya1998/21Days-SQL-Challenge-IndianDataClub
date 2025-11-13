@@ -51,7 +51,7 @@ select
 	end as performance_category
 from services_weekly
 group by service
-order by avg(patient_satisfaction);
+order by avg(patient_satisfaction) desc;
 
 
 
